@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/tiny-slider.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/glightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/icons/font-awesome/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>SigmaOT</title>
+    <script>
+        // Fetch and insert the header content
+        fetch('/includes/header.html')
+            .then(response => response.text())
+            .then(content => {
+                document.getElementById('header').innerHTML = content;
+            });
+    </script>
+</head>
+
+<body>
+      <!-- Include the header-->
+      <div id="header"></div> 
+    <div class="section pt-0 bg-img py-5 overlay" style="background-image: url('images/hero_bg_1.jpg');">
+        <div class="container">
+            <div class="row align-items-center justify-content-center text-center">
+                <div class="col-lg-7">
+                    <h2 class="text-white mb-3 fw-bold" data-aos="fade-up" data-aos-delay="0">About us</h2>
+                    <p class="text-white h5 mb-4" data-aos="fade-up" data-aos-delay="100">SigmaOT is a leading provider of comprehensive OT (Operational Technology) security services. With a 
+                        deep understanding of the unique challenges and vulnerabilities in industrial control systems, our company 
+                        offers tailored solutions to safeguard critical infrastructures and ensure the uninterrupted operation of 
+                        industrial processes.</p>
+                    <p class="text-center"><a href="#" class="btn btn-secondary" data-aos="fade-up" data-aos-delay="200">Get started</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="section">
+        <div class="container">
+            <div class="row  mb-5 text-center" data-aos="fade-up">
+                <span class="subheading d-block">Awesome Team</span>
+                <h2 class="heading">Team</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 mx-auto contents">
+                    <div class="row">
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="0" data-aos="fade-up" data-aos-delay="0">
+                            <div class="team">
+                                <img src="images/person_1.jpg" alt="Image" class="img-fluid mb-4 team-img">
+                                <h3><a href="#">Raymond Woodward</a></h3>
+                                <span class="d-block mb-3">SOC &amp; Leads</span>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quia, obcaecati dolorem voluptatem ex, quos laboriosam quas veniam voluptatum eum incidunt.</p>
+                                <p><a href="#" class="more">Learn more</a></p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="team">
+                                <img src="images/person_2.jpg" alt="Image" class="img-fluid mb-4 team-img">
+                                <h3><a href="#">Edwin Snider</a></h3>
+                                <span class="d-block mb-3">SOC &amp; Leads</span>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quia, obcaecati dolorem voluptatem ex, quos laboriosam quas veniam voluptatum eum incidunt.</p>
+                                <p><a href="#" class="more">Learn more</a></p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                            <div class="team">
+                                <img src="images/person_3.jpg" alt="Image" class="img-fluid mb-4 team-img">
+                                <h3><a href="#">Cedric Davidson</a></h3>
+                                <span class="d-block mb-3">SOC &amp; Leads</span>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quia, obcaecati dolorem voluptatem ex, quos laboriosam quas veniam voluptatum eum incidunt.</p>
+                                <p><a href="#" class="more">Learn more</a></p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="team">
+                                <img src="images/person_3.jpg" alt="Image" class="img-fluid mb-4 team-img">
+                                <h3><a href="#">Ulric Poole</a></h3>
+                                <span class="d-block mb-3">SOC &amp; Leads</span>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quia, obcaecati dolorem voluptatem ex, quos laboriosam quas veniam voluptatum eum incidunt.</p>
+                                <p><a href="#" class="more">Learn more</a></p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                            <div class="team">
+                                <img src="images/person_2.jpg" alt="Image" class="img-fluid mb-4 team-img">
+                                <h3><a href="#">Fred Collins</a></h3>
+                                <span class="d-block mb-3">SOC &amp; Leads</span>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quia, obcaecati dolorem voluptatem ex, quos laboriosam quas veniam voluptatum eum incidunt.</p>
+                                <p><a href="#" class="more">Learn more</a></p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="500">
+                            <div class="team">
+                                <img src="images/person_1.jpg" alt="Image" class="img-fluid mb-4 team-img">
+                                <h3><a href="#">Teddy Motley</a></h3>
+                                <span class="d-block mb-3">SOC &amp; Leads</span>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Quia, obcaecati dolorem voluptatem ex, quos laboriosam quas veniam voluptatum eum incidunt.</p>
+                                <p><a href="#" class="more">Learn more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="section">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+                    <a href="https://vimeo.com/342333493" class="video-wrap glightbox">
+                    <span class="play-wrap"><span class="icon-play"></span></span>
+                    <img src="images/hero_bg_1.jpg" alt="Image" class="img-fluid rounded">
+                    </a>
+                </div>
+                <div class="col-lg-5">
+                    <div class="">
+                        <span class="subheading d-block" data-aos="fade-right" data-aos-delay="0">Mission</span>
+                        <h2 class="heading text-black mb-4" data-aos="fade-right" data-aos-delay="0">About Us</h2>
+                        <p class="mb-5" data-aos="fade-right" data-aos-delay="100">SigmaOT is a leading provider of comprehensive OT (Operational Technology) security services. With a 
+                            deep understanding of the unique challenges and vulnerabilities in industrial control systems, our company 
+                            offers tailored solutions to safeguard critical infrastructures and ensure the uninterrupted operation of 
+                            industrial processes.</p>
+                        <div class="feature d-flex mb-5" data-aos="fade-right" data-aos-delay="200">
+                            <div class="col-2">
+                                <img src="images/svg/001-airplane.svg" alt="Image" class="img-fluid">
+                            </div>
+                            <div class="text col-10">
+                                <p>At SigmaOT, we are committed to mitigating the evolving threats and risks faced by organizations in the OT 
+                                    landscape. Our team of highly skilled experts possesses extensive knowledge in OT security, combining 
+                                    technical expertise with industry best practices to deliver robust and reliable protection for our clients</p>
+                            </div>
+                        </div>
+                        <div class="feature d-flex mb-5" data-aos="fade-right" data-aos-delay="300">
+                            <div class="col-2">
+                                <img src="images/svg/002-cargo-ship.svg" alt="Image" class="img-fluid">
+                            </div>
+                            <div class="text col-10">
+                                <p>Our range of services includes comprehensive risk assessments, vulnerability assessments, and penetration 
+                                    testing tailored specifically for industrial control systems. We design and implement customized security 
+                                    architectures, deploy advanced threat detection and monitoring systems, and provide ongoing security 
+                                    maintenance and support to our clients.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6" data-aos="fade-left">
+                    <a href="https://vimeo.com/342333493" class="video-wrap glightbox">
+                    <span class="play-wrap"><span class="icon-play"></span></span>
+                    <img src="images/hero_bg_1.jpg" alt="Image" class="img-fluid rounded">
+                    </a>
+                </div>
+                <div class="col-lg-5">
+                    <div class="feature d-flex mb-5" data-aos="fade-right" data-aos-delay="300">
+                        <div class="col-2">
+                            <img src="images/svg/002-cargo-ship.svg" alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text col-10">
+                            <p>With a customer-centric approach, we collaborate closely with organizations to develop tailored security 
+                                strategies that align with their unique operational requirements. We prioritize proactive measures to 
+                                identify and address vulnerabilities before they can be exploited, ensuring the continuity, reliability, and 
+                                safety of their operations.</p>
+                        </div>
+                    </div>
+                    <div class="feature d-flex mb-5" data-aos="fade-right" data-aos-delay="300">
+                        <div class="col-2">
+                            <img src="images/svg/002-cargo-ship.svg" alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text col-10">
+                            <p>By partnering with SigmaOT, our clients gain peace of mind, knowing that their critical infrastructure is 
+                                shielded from cyber threats and unauthorized access. We empower organizations to confidently navigate 
+                                the digital landscape, enabling them to focus on their core operations while we handle their OT security 
+                                needs.</p>
+                        </div>
+                    </div>
+                    <div class="feature d-flex mb-5" data-aos="fade-right" data-aos-delay="300">
+                        <div class="col-2">
+                            <img src="images/svg/002-cargo-ship.svg" alt="Image" class="img-fluid">
+                        </div>
+                        <div class="text col-10">
+                            <p>Choose SigmaOT for cutting-edge OT security services that provide the foundation for a resilient and 
+                                secure industrial environment. Trust us to be your trusted partner in safeguarding your operational 
+                                technology and preserving the integrity of your mission-critical systems.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+    
+    <div class="section bg-light">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-5" data-aos="fade-up">
+                    <span class="subheading d-block">Testimonials</span>
+                    <h2 class="heading mb-5">Happy Customer</h2>
+                    <div class="testimonial-slide-wrap">
+                        <div class="testimonial-slide">
+                            <div class="item">
+                                <blockquote class="block-testimonial">
+                                    <div class="author">
+                                        <img src="images/profile-img.png">
+                                        <h3>Rohit Apte</h3>
+                                        <p class="position">OT Manager, Toy Manufacturer</p>
+                                        <p class="position">Pune</p>
+                                    </div>
+                                    <p>
+                                        &ldquo;From the moment we engaged with their team, we were impressed by their in-depth understanding of OT
+                                        security challenges in industrial environments. They conducted a thorough assessment of our systems,
+                                        identifying potential vulnerabilities and recommending tailored solutions to mitigate risks effectively.&rdquo;</p>
+                                </blockquote>
+                            </div>
+                            <div class="item">
+                                <blockquote class="block-testimonial">
+                                    <div class="author">
+                                        <img src="images/profile-img.png">
+                                        <h3>Arjun Kumar Uppala</h3>
+                                        <p class="position">Chief OT Security, Auto parts Manufacturer</p>
+                                        <p class="position">Chennai</p>
+                                    </div>
+                                    <p>
+                                        &ldquo;Their customer-centric approach was evident throughout the entire engagement. They actively involved
+                                        our team in the process, ensuring that we fully understood the implemented security measures and the
+                                        best practices to maintain a secure environment.&rdquo;</p>
+                                </blockquote>
+                            </div>
+                            <div class="item">
+                                <blockquote class="block-testimonial">
+                                    <div class="author">
+                                        <img src="images/profile-img.png">
+                                        <h3>Ashok Thyagarajan</h3>
+                                        <p class="position">IT/OT Manager, Electrical Devices Manufacturer</p>
+                                        <p class="position">Bengaluru</p>
+                                    </div>
+                                    <p>
+                                        &ldquo;I highly recommend SigmaOT to any manufacturing plant seeking robust OT security services. Their
+                                        professionalism, expertise, and commitment to our security needs have made them an invaluable partner
+                                        in safeguarding our operations.&rdquo;</p>
+                                </blockquote>
+                            </div>
+                            <div class="item">
+                                <blockquote class="block-testimonial">
+                                    <div class="author">
+                                        <img src="images/profile-img.png">
+                                        <h3>Ravindra Jha</h3>
+                                        <p class="position">Managing Director, Food and Beverage Company</p>
+                                        <p class="position">Bengaluru</p>
+                                    </div>
+                                    <p>
+                                        &ldquo;Their team seamlessly integrated advanced security measures into our existing infrastructure, providing us
+                                        with a robust defense against cyber threats. The implementation was smooth, and they worked closely
+                                        with our team to ensure a seamless transition without disrupting our operations.&rdquo;</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div id="prevnext-testimonial">
+                            <span class="prev"><span class="fas fa-chevron-left"></span></span>
+                            <span class="next"><span class="fas fa-chevron-right"></span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <span class="subheading d-block">Why Us</span>
+                    <h2 class="heading mb-5">Why Choose Us</h2>
+                    <div class="custom-accordion" id="accordion_1">
+                        <div class="accordion-item">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Expert Team</button>
+                            </h2>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion_1">
+                                <div class="accordion-body">
+                                    <div class="d-flex">
+                                        <div>
+                                            <p> Our team of highly skilled OT professionals brings years of experience and expertise in 
+                                                delivering top-notch solutions tailored to your unique business needs.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Comprehensive Services</button>
+                            </h2>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion_1">
+                                <div class="accordion-body">
+                                    <div class="d-flex">
+                                        <div>
+                                            <p> From OT consulting and system integration to managed services and 
+                                                cybersecurity, we offer a full suite of services to meet all your OT requirements under one roof.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Proven Track Record</button>
+                            </h2>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#accordion_1">
+                                <div class="accordion-body">
+                                    <div class="d-flex">
+                                        <div>
+                                            <p>With a proven track record of successful projects and satisfied clients, we have built a 
+                                                reputation for delivering reliable, high-quality OT solutions that drive tangible results.
+                                                </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Client-Centric Approach</button>
+                            </h2>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-bs-parent="#accordion_1">
+                                <div class="accordion-body">
+                                    <div class="d-flex">
+                                        <div>
+                                            <p>We prioritize understanding your business objectives and challenges, ensuring 
+                                                that our solutions are fully aligned with your goals and designed to maximize efficiency and productivity</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                          <div class="accordion-item">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Cutting-Edge Technology</button>
+                            </h2>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-bs-parent="#accordion_1">
+                                <div class="accordion-body">
+                                    <div class="d-flex">
+                                        <div>
+                                            <p> Staying at the forefront of technological advancements, we leverage the latest 
+                                                tools and innovations to provide you with state-of-the-art OT solutions that give you a competitive edge in 
+                                                the market.
+                                                </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+           <!-- Include the footer  -->
+           <div id="footer"></div>
+
+
+    <div id="overlayer"></div>
+    <div class="loader">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/glightbox.min.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+        // Fetch and insert the footer content
+        fetch('/includes/footer.html')
+            .then(response => response.text())
+            .then(content => {
+                document.getElementById('footer').innerHTML = content;
+            });
+    </script>
+</body>
+
+</html>
